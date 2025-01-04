@@ -1,5 +1,6 @@
 {
-  "homepage": "https://mohammadsoroush.github.io/R_Movie",
+  
+  "homepage": ".",
   "name": "tmdb",
   "version": "0.1.0",
   "private": true,
