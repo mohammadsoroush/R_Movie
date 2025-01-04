@@ -107,7 +107,7 @@ export const HomeCarouselList: React.FC<HomeCarouselListProps> = ({ List }) => {
             <motion.div
               onClick={() => Go_To_Details(item.id)}
               className="ListItem"
-              key={item.id}
+              key={`${item.title}${index}`}
               whileHover={{
                 scale: 1.05,
                 transition: { duration: 0.5 },
