@@ -1,0 +1,9 @@
+body,html{
+    font-family: "Playfair Display", serif;
+   background-color: #1A1A1D ;
+    width: 100%;
+   
+    overflow-x: hidden;
+    box-sizing: border-box;
+    
+}

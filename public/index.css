@@ -1,0 +1,16 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,html{
+    font-family: "Playfair Display", serif;
+   background-color: #1A1A1D !important;
+    width: 100%;
+   
+    overflow-x: hidden;
+    box-sizing: border-box;
+    
+}
