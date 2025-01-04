@@ -89,7 +89,7 @@ export const HomeSlider = () => {
       const item = Carousel[i + 1]; // از داده‌های اولیه Carousel استفاده کنید
 
       return item
-        ? {
+        ? { 
             img: `https://image.tmdb.org/t/p/w1280${item.backdrop_path}`,
             title: item.title,
             describe: item.overview,
