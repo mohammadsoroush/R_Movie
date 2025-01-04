@@ -111,7 +111,7 @@ export const HomeSlider = () => {
       sx={{
         display: "grid",
         gridTemplateColumns: {
-          xs: "minmax(500px,1fr)",
+          xs: "minmax(100px,1fr)",
           lg: "minmax(500px,2fr) minmax(200px,1fr)",
         }, // به جای width
         gap: "21px",

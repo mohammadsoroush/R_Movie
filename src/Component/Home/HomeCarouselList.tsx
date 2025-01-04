@@ -32,6 +32,8 @@ export const HomeCarouselList: React.FC<HomeCarouselListProps> = ({ List }) => {
         overflowX: "hidden",
         overflowY: "hidden",
         height: "100%",
+        width:"93%",
+        m:"auto",
 
         "& .ListItem": {
           display: "grid",
@@ -55,7 +57,7 @@ export const HomeCarouselList: React.FC<HomeCarouselListProps> = ({ List }) => {
           flexDirection: { xs: "row", lg: "column" },
           alignItems: "center",
           justifyContent: "center",
-          gap: { xs: "80px", sm: "40px", lg: "10px" },
+          gap: { xs: "5px", sm: "40px", lg: "10px" },
           width: "100%",
         }}
       >
